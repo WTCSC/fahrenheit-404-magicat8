@@ -1,4 +1,7 @@
+import time
 print("Welcome to the Spectacular... Wonderful... Amazing... Temperature converter.")
+
+time.sleep(1)
 
 def c_to_f(c):
     conv_temp = (c * 1.8) + 32
